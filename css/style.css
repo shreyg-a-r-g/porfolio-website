@@ -197,14 +197,14 @@ canvas{
    
 
     }
-     @media screen and (max-width: 510px) and (min-width: 409px) {
+     @media screen and (max-width: 510px) and (min-width: 409px) and (orientation:portrait) {
    
    .typed{
     font-size: 42%;
    }
    .text-center.social
    {
-    //padding-top: 50%;
+    
    }
    .typed-cursor{
     font-size: 42%;
@@ -219,8 +219,36 @@ canvas{
   
 }
 .icong{
-  width: 17%;,
-  height: 17%
+  width: 14%;,
+  height: 14%
+}
+   
+   
+    }
+	@media screen and (max-width: 510px) and (min-width: 409px) and (orientation:landscape) {
+   
+   .typed{
+    font-size: 42%;
+   }
+   .text-center.social
+   {
+    
+   }
+   .typed-cursor{
+    font-size: 42%;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+.icong:hover
+{
+  transform: none;
+  
+}
+.icong{
+  width: 14%;,
+  height: 14%
 }
    
    
@@ -232,7 +260,7 @@ canvas{
    }
   .text-center.social
    {
-    padding-top: 50%;
+    padding-bottom: 30%;
    }
    .typed-cursor{
     font-size: 38%;
@@ -247,8 +275,8 @@ canvas{
   
 }
 .icong{
-  width: 17%;,
-  height: 17%
+  width: 12%;,
+  height: 12%
 }
    
     }
@@ -276,8 +304,8 @@ canvas{
   
 }
 .icong{
-  width: 17%;,
-  height: 17%
+  width: 12%;,
+  height: 12%
 }
 
 }
