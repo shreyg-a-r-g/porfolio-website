@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Shrey Garg - Portfolio</title>
+ <link rel="shortcut icon" type="image/jpeg" href="img/fav.jpg" />
+ <meta name="author" content="Shrey Garg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/typed.js" type="text/javascript"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150937067-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-150937067-1');
+</script>
+
+</head>
+<body oncontextmenu="return false">
+<!-- particles.js container -->
+<div id="particles-js"></div>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="js/app.js"></script>
+<div  class="text-center" style="opacity: 0.9;" >
+	<img src="img/me.jpg" id="overlay" class="imgme" width="25%" height="25%" title="That's me" style="padding: 2%;" >
+</div>
+<div id="typed-strings">
+    <p><strong>Hey, I'm Shrey Garg</strong></p>
+    <p><strong>Android Developer</strong></p>
+    <p><strong>I love to automate monotonous tasks</strong></p>
+    <p><strong>Experienced in end-to-end product development</strong></p>
+    <p><strong>Open source contributor</strong></p>
+	<p><strong>UI/UX enthusiast</strong></p>
+</div>
+<div id="overlay"
+class="text-center" style="padding: 5%;" >
+<h1 style="color:white;"><span class="typed"  ></span>
+</h1>
+</div>
+
+<script >
+	 var typed = new Typed('.typed', {
+    stringsElement: '#typed-strings',
+      typeSpeed: 70,
+      loop: true,
+      backSpeed: 10,
+    backDelay: 1000,
+    startDelay: 800
+  });
+</script>
+<div id="overlay" class="text-center social" style="-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box; 
+box-sizing: border-box" >
+  <a href="https://www.linkedin.com/in/shreygarg/" title="Linkedin" target="_blank">
+	<img src="img/linkedin.png" width=9% height=9% style="padding-right: 3%" class="icong"></a>
+  <a href="https://github.com/yerhsgrag" title="Github" target="_blank" >
+	<img src="img/github.png" width=9% height=9% style="padding-right: 3%" class="icong" ></a>
+  <a href="https://play.google.com/store/apps/developer?id=Shrey+Garg" title="Google Play" target="_blank">
+	<img src="img/play.png" width=9% height=9% style="padding-right: 3%" class="icong"></a>
+  <a href="https://stackoverflow.com/users/6671004/shrey-garg" title="Stackoverflow" target="_blank">
+	<img src="img/stackoverflow.png" width=9% height=9% style="padding-right: 3%" class="icong"></a>
+  <a href="mailto:shreygarg94@gmail.com" title="Gmail" target="_blank">
+	<img src="img/gmail.png" width=9% height=9% style="padding-right: 3%" class="icong"></a>
+  <a href="https://twitter.com/yerhsgrag" title="Twitter" target="_blank">
+	<img src="img/twitter.png" width=9% height=9% style="padding-right: 3%" class="icong"></a>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSd4LMP2zW1QetrImaxvQ8Z85l2yym6zNDBK4ZiotbLT7HDDmw/viewform?usp=sf_link" title="Get my resume" target="_blank">
+	<img src="img/Resume.png" width=9% height=9% style="padding-right: 3%" class="icong"></a>
+</div>
+
+</body>
+</html>
